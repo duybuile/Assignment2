@@ -12,7 +12,7 @@
 source("makeCacheMatrix.R")
 source("cacheSolve.R")
 ````
-- You now have 2 options to create a matrix. Let's start by create a random square matrix with dimension 2
+- You now have 2 options to create a matrix. Let's start by creating a random square matrix with dimension 2
 ````sh
 M <- makeRandomMatrix(2)
 cacheSolve(M)
