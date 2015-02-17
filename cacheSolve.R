@@ -15,7 +15,7 @@ cacheSolve <- function(M,...){
   origin <- M$createMatrix()
   
   #The inverse of the matrix is retrieved
-  inverse <- M$retrieveInverse(origin)
+  inverse <- M$retrieveInverse()
   
   #return both matrices for better visual convenience 
   list (origin, inverse)
